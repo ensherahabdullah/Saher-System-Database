@@ -18,24 +18,20 @@ The database consists of six tables:
 
 | Table | Description |
 |---|---|
-| `owners` | Stores vehicle owners' information, including names, phone numbers, and addresses. |
-| `vehicles` | Stores vehicle details and links each vehicle to its owner. |
-| `cameras` | Stores traffic camera information, including locations, types, and statuses. |
-| `violations` | Stores traffic violation types and their prices. |
-| `records` | Represents the relationship between vehicles and cameras. |
-| `committedby` | Records vehicle violations, including the violation type and date. |
+| owners | Stores vehicle owners' information, including names, phone numbers, and addresses. |
+| vehicles | Stores vehicle details and links each vehicle to its owner. |
+| cameras | Stores traffic camera information, including locations, types, and statuses. |
+| violations | Stores traffic violation types and their prices. |
+| records | Represents the relationship between vehicles and cameras. |
+| committedby | Records vehicle violations, including the violation type and date. |
 
 ## Database Design
 
 ### Entity-Relationship Diagram (ERD)
 
-The ERD illustrates the main entities, their attributes, and the relationships between them.
-
 ![ER Diagram](ER_Diagram.png)
 
 ### Relational Schema
-
-The Relational Schema represents the database tables, primary keys, foreign keys, and their relationships.
 
 ![Relational Schema](Relational_Schema.jpeg)
 
