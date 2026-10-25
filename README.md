@@ -32,9 +32,7 @@ The database consists of six tables:
 ![ER Diagram](ER_Diagram.png)
 
 ### Relational Schema
-
 ![Relational Schema](Relational_Schema.jpeg)
-
 ## SQL Queries
 
 The project includes queries to:
